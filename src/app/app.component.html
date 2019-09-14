@@ -7,10 +7,17 @@
       Clear
     </div>
   </div>
-  <div *ngFor="let i of list" class="list">
-    <div class="element">
-      {{i}}
+  <div class="lists">
+    <div class="list">
+      <div *ngFor="let i of list" class="element">
+        {{i.display}}
+      </div>
     </div>
+    <div class="list">
+      <div *ngFor="let i of diffs" class="element">
+        {{i.display}}
+      </div>
+    </div> 
   </div>
 </div>
 <router-outlet></router-outlet>
