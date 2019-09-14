@@ -10,13 +10,17 @@
       width: 100px;
       height: 56px;
       line-height: 56px;
-      background-color: gray;
       justify-content: center;
-      margin-right: 5px;
+      margin-right: 50px;
       border-radius: 5px; 
     }
-  }
-  .list{
-
+    .blue{
+      background-color: blue;
+      color: white;
+    }
+    .yellow{
+      background-color: yellow;
+      color: black;
+    }
   }
 }
