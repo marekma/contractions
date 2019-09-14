@@ -5,6 +5,7 @@
   .buttons{
     display: flex;
     flex-direction: row;
+    margin-bottom: 2px;
     .button{
       display: flex;
       width: 100px;
@@ -21,6 +22,19 @@
     .yellow{
       background-color: yellow;
       color: black;
+    }
+  }
+
+  .lists{
+    display: flex;
+    flex-direction: row;
+    .list{
+      display: flex;
+      flex-direction: column;
+      margin-left: 10px;
+      .element{
+        margin-bottom: 2px;
+      }
     }
   }
 }
