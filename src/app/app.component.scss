@@ -1,0 +1,22 @@
+.container{
+  display: flex;
+  flex-direction: column;
+
+  .buttons{
+    display: flex;
+    flex-direction: row;
+    .button{
+      display: flex;
+      width: 100px;
+      height: 56px;
+      line-height: 56px;
+      background-color: gray;
+      justify-content: center;
+      margin-right: 5px;
+      border-radius: 5px; 
+    }
+  }
+  .list{
+
+  }
+}
