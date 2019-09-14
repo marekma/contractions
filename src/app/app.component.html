@@ -1,6 +1,16 @@
-<!--The content below is only a placeholder and can be replaced.-->
-<div style="text-align:center">
+<div class="container">
+  <div class="buttons">
+    <div class="button" (click)="contraction()">
+      Contraction
+    </div>
+    <div class="button" (click)="clear()">
+      Clear
+    </div>
   </div>
-
-
+  <div *ngFor="let i of list" class="list">
+    <div class="element">
+      {{i}}
+    </div>
+  </div>
+</div>
 <router-outlet></router-outlet>

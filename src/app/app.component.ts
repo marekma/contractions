@@ -6,5 +6,13 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'contractions';
+  list: string[] = [];
+  contraction(): void { 
+    var x = new Date();
+    this.list.push(x.toLocaleTimeString());
+    this.list.reverse();
+  }
+  clear(): void { 
+    this.list = [];
+  }
 }
