@@ -7,12 +7,11 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   list: string[] = [];
-  contraction(): void { 
+  contraction(): void {
     var x = new Date();
-    this.list.push(x.toLocaleTimeString());
-    this.list.reverse();
+    this.list.unshift(x.toLocaleTimeString('pl-PL'));
   }
-  clear(): void { 
+  clear(): void {
     this.list = [];
   }
 }
