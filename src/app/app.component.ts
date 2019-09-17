@@ -19,6 +19,7 @@ export class AppComponent {
   }
   clear(): void {
     this.list = [];
+    this.diffs = [];
   }
 
   diff(date1: Date, date2: Date) {
